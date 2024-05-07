@@ -22,10 +22,10 @@ export const Navbar = () => {
         <div className='otros'>
             
 
-            <p>Inicio</p>
-            <p>Paginas web</p>
-            <p>Preguntas Frecuentes</p>
-            <button className='btnContactanos'>CONTACTANOS</button>
+            <a>Inicio</a>
+            <a href='#Paginas'>Paginas web</a>
+            <a href='#PreguntasFrecuentes'>Preguntas Frecuentes</a>
+            <a className='btnContactanos' href='#Contactanos'>CONTACTANOS</a>
 
 
 

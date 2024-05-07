@@ -14,7 +14,7 @@ export const Header = () => {
             <h1>Creamos la página web que necesitás, optimizada para tu negocio.</h1>
 
 
-            <button className='btnContactanos'>Conoce Mas</button>
+            <a href="#ayuda" className='btnContactanos'>Conoce mas</a>
 
 
 

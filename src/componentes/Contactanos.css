@@ -1,0 +1,49 @@
+.Contactanos{
+    display: flex;
+    
+    background-color: white;
+    color: black;
+    text-align: center;
+    
+}
+
+.Contactanos h1{
+    margin: 45px;
+}
+
+
+.Contactos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:  80px auto;
+    width: 80%;
+
+}
+
+.contactos{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.whatsapp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    margin: 0 55px;
+    height: 250px;
+    background-color: rgb(251, 120, 160);
+    border-radius: 30px;
+    cursor: pointer;
+
+}
+
+.whatsapp img{
+    width: 20%;
+}
