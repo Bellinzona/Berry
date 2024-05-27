@@ -70,3 +70,139 @@
 .mostrar{
     display: flex;
 }
+
+
+@media screen and (max-width: 1440px) {
+
+    .EstandaresCalidad{
+        
+        width: 75%;
+    }
+
+    
+}
+
+@media screen and (max-width: 1024px) {
+
+    .BerrySector{
+        width: 85%;
+       
+       
+    }
+
+    .texto{
+        
+        width: 70%;
+    }
+
+
+    .CalidadIcons p{
+        font-size: 0.8rem;
+    }
+    
+
+    .EstandaresCalidad{
+        
+        width: 100%;
+      
+    }
+
+    
+}
+
+@media screen and (max-width: 768px) {
+    
+
+    .texto{
+        
+        width: 85%;
+    }
+    
+    .EstandaresCalidad{
+        
+        width: 85%;
+      
+    }
+}
+
+@media screen and (max-width: 425px) {
+    
+    .BerrySector{
+        font-size: 1rem;
+    }
+
+    .texto{
+        width: 100%;
+        
+    }
+    
+    .EstandaresCalidad{
+        
+        width: 100%;
+      
+    }
+
+    .CalidadIcons p{
+        font-size: 0.6rem;
+    }
+
+
+    
+}
+
+@media screen and (max-width: 375px) {
+    
+    .BerrySector{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .texto{
+        width: 100%;
+        
+    }
+    
+    .EstandaresCalidad{
+        
+        width: 100%;
+      
+    }
+
+    .CalidadIcons p{
+        font-size: 0.6rem;
+    }
+
+
+    
+}
+
+@media screen and (max-width: 320px) {
+    
+    .BerrySector{
+        font-size: 1.3rem;
+        text-align: center;
+        width: 91.7%;
+    }
+
+    .texto{
+        width: 100%;
+        
+        
+    }
+    
+    .EstandaresCalidad{
+        
+        width: 100%;
+        
+      
+    }
+
+    .CalidadIcons p{
+        font-size: 0.5rem;
+    }
+
+
+    
+}
+    
+    

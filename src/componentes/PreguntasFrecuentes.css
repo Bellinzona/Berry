@@ -51,3 +51,21 @@ summary{
     border-radius: 10px;
     transition: 1s all;
 }
+
+@media screen and (max-width: 425px) {
+        
+    
+   .PreguntasSector{
+    width: 100%;
+   }
+
+   summary{
+    width: 60%;
+   }
+
+   .InfoPreguntas{
+    width: 60%;
+   }
+ 
+
+}

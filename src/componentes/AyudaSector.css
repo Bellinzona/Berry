@@ -8,6 +8,7 @@
     color: rgb(255, 255, 255);
     background-color: rgb(240, 92, 139);
     
+    
 }
 
 .AyudaSector h1{
@@ -86,3 +87,289 @@
 .esconder{
     display: none;
 }
+
+@media screen and (max-width: 1440px) {
+    
+       
+
+       .PrimerosDos{
+        
+        top: -35px;
+       }
+
+       .OtrosDos{
+       
+        top: 250px;
+       }
+
+       .PrimerosDos h1{
+        font-size: 2.6rem;
+        margin-bottom: 0;
+
+       }
+
+       .OtrosDos h1{
+        font-size: 2.6rem;
+        margin-bottom: 0;
+       }
+
+       .Bloque1{
+       
+        font-size: 1rem;
+       }
+
+       
+        
+        
+        
+    }
+
+
+    @media screen and (max-width: 1024px) {
+       
+    
+           .PrimerosDos{
+            
+            top: -35px;
+           }
+    
+           .OtrosDos{
+           
+            top: 250px;
+           }
+    
+           .PrimerosDos h1{
+            font-size: 2.2rem;
+            margin-bottom: 0;
+    
+           }
+
+           .PrimerosDos p{
+            font-size: 0.89rem;
+            
+    
+           }
+    
+           .OtrosDos h1{
+            font-size: 2.1rem;
+            margin-bottom: 0;
+           }
+
+           .OtrosDos p{
+            font-size: 0.89rem;
+            
+    
+           }
+    
+           .Bloque1{
+           
+            font-size: 1rem;
+           }
+    
+        
+    
+    }
+
+
+    @media screen and (max-width: 768px) {
+        
+    
+           .PrimerosDos{
+            
+            top: -35px;
+           }
+    
+           .OtrosDos{
+           
+            top: 280px;
+           }
+    
+           .PrimerosDos h1{
+            font-size: 1.8rem;
+            margin-bottom: 0;
+    
+           }
+
+           .PrimerosDos p{
+            font-size: 0.89rem;
+            height: 20px;
+            
+            
+            
+    
+           }
+    
+           .OtrosDos h1{
+            font-size: 1.6rem;
+            margin-bottom: 0;
+           }
+
+           .OtrosDos p{
+            font-size: 0.8rem;
+            
+    
+           }
+    
+           .Bloque1{
+           
+            font-size: 1rem;
+           }
+    
+        
+    
+    }
+
+    @media screen and (max-width: 425px) {
+        
+    
+        .PrimerosDos{
+         
+         top: -35px;
+        }
+ 
+        .OtrosDos{
+        
+         top: 280px;
+        }
+ 
+        .PrimerosDos h1{
+         font-size: 1rem;
+         margin-bottom: 0;
+ 
+        }
+
+        .PrimerosDos p{
+         font-size: 0.6rem;
+         height: 20px;
+         
+         
+         
+ 
+        }
+ 
+        .OtrosDos h1{
+         font-size: 1rem;
+         margin-bottom: 0;
+        }
+
+        .OtrosDos p{
+         font-size: 0.6rem;
+         
+ 
+        }
+ 
+        .Bloque1{
+        
+         font-size: 1rem;
+        }
+ 
+     
+ 
+ }
+
+
+ @media screen and (max-width: 375px) {
+
+    .AyudaSector h1{
+        font-size: 2rem;
+    }
+        
+    
+    .PrimerosDos{
+     
+     top: -15px;
+    }
+
+    .OtrosDos{
+    
+     top: 290px;
+    }
+
+    .PrimerosDos h1{
+     font-size: 0.9rem;
+     margin-bottom: 0;
+
+    }
+
+    .PrimerosDos p{
+     font-size: 0.6rem;
+     height: 20px;
+     
+     
+     
+
+    }
+
+    .OtrosDos h1{
+     font-size: 0.9rem;
+     margin-bottom: 0;
+    }
+
+    .OtrosDos p{
+     font-size: 0.6rem;
+     
+
+    }
+
+    .Bloque1{
+    
+     font-size: 1rem;
+    }
+
+ 
+
+}
+
+@media screen and (max-width: 320px) {
+
+    .AyudaSector h1{
+        font-size: 1.5rem;
+    }
+        
+    
+    .PrimerosDos{
+     
+     top: -15px;
+    }
+
+    .OtrosDos{
+    
+     top: 290px;
+    }
+
+    .PrimerosDos h1{
+     font-size: 0.7rem;
+     margin-bottom: 0;
+
+    }
+
+    .PrimerosDos p{
+     font-size: 0.5rem;
+     height: 20px;
+     
+     
+     
+
+    }
+
+    .OtrosDos h1{
+     font-size: 0.9rem;
+     margin-bottom: 0;
+    }
+
+    .OtrosDos p{
+     font-size: 0.6rem;
+     
+
+    }
+
+    .Bloque1{
+    
+     font-size: 1rem;
+    }
+
+ 
+
+}
+
+
