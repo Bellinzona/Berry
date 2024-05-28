@@ -74,6 +74,10 @@
 
 @media screen and (max-width: 1440px) {
 
+    .BerrySector{
+        text-align: center;
+    }
+
     .EstandaresCalidad{
         
         width: 75%;
@@ -86,6 +90,8 @@
 
     .BerrySector{
         width: 85%;
+        text-align: center;
+        font-size: 1.5rem;
        
        
     }
@@ -111,6 +117,15 @@
 }
 
 @media screen and (max-width: 768px) {
+
+    .BerrySector{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .BerrySector h3{
+        font-size: 1.5rem;
+    }
     
 
     .texto{
@@ -128,7 +143,8 @@
 @media screen and (max-width: 425px) {
     
     .BerrySector{
-        font-size: 1rem;
+        font-size: 1.5rem;
+        text-align: center;
     }
 
     .texto{
