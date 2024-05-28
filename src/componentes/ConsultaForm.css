@@ -30,3 +30,22 @@ textarea::placeholder{
     z-index: 1000;
     top: 0;
 }
+
+
+@media screen and (max-width: 1160px) {
+    .LlamarForm {
+        width: 65%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .LlamarForm {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .LlamarForm {
+        width: 90%;
+    }
+}

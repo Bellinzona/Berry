@@ -240,23 +240,28 @@
 @media screen and (max-width: 425px) {
 
     .Navbar{
-        width: 95%;
+        width: 90%;
+        
         
         
        
     }
 
+   
+
     .containerNavbar img{
-        width: 35%;
+        width: 30%;
         will-change: filter;
         transition: filter 300ms;
         cursor: pointer;
     }
 
     .containerNavbar{
-        width: 90%;
+        width: 100%;
         border: none;
         margin-bottom: 0px;
+        
+       
        
     }
 
