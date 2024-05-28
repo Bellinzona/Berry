@@ -127,7 +127,7 @@
     
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1160px) {
     .Navbar{
         width: 92%;
     }
@@ -171,7 +171,7 @@
 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 944px) {
 
     .Navbar{
         width: 95%;

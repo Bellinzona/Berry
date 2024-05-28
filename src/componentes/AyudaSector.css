@@ -125,7 +125,7 @@
     }
 
 
-    @media screen and (max-width: 1024px) {
+    @media screen and (max-width: 1160px) {
        
     
            .PrimerosDos{
@@ -171,7 +171,7 @@
     }
 
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 900px) {
         
     
            .PrimerosDos{
@@ -219,7 +219,7 @@
     
     }
 
-    @media screen and (max-width: 425px) {
+    @media screen and (max-width: 746px) {
         
     
         .PrimerosDos{
@@ -268,7 +268,22 @@
  }
 
 
- @media screen and (max-width: 375px) {
+ @media screen and (max-width: 408px) {
+
+
+    .AyudaSector{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100vh;
+        padding: 50px 0;
+        margin: 0px 0;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        background-color: rgb(240, 92, 139);
+        
+        
+    }
 
     .AyudaSector h1{
         font-size: 2rem;
@@ -320,7 +335,7 @@
 
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 360px) {
 
     .AyudaSector h1{
         font-size: 1.5rem;
