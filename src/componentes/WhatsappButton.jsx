@@ -6,7 +6,7 @@ export const WhatsappButton = () => {
   return (
     <div className='WhatsappButton'>
         
-        <a href="https://api.whatsapp.com/send?phone=1234567890"><img src={whats} alt="" /></a>
+        <a href="https://api.whatsapp.com/send?phone=1136181253"><img src={whats} alt="" /></a>
         
 
 

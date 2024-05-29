@@ -42,7 +42,7 @@ export const ConsultaForm = ({ setMostrarConsultaForm }) => {
 
   const enviarDatos = async (data) => {
     try {
-      const response = await axios.post('http://localhost:8080/api/send-email', data);
+      const response = await axios.post('https://serverberry.onrender.com/api/send-email', data);
       console.log('Respuesta del servidor:', response.data);
       setCargando(false)
       Swal.fire({

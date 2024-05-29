@@ -87,7 +87,7 @@ export const AyudaSector = () => {
 
                 <div className={`bloque2 Bloque4 animate__fadeInRight ${isVisible ? '' : 'esconder'}`}>
 
-                    <h1>4. GANA</h1>
+                    <h1>4. GANÁ</h1>
                     <p>Con una tienda online, puedes evitar los costos comerciales básicos asociados con un local físico, como el alquiler, los servicios públicos y el mantenimiento. Además, con un nivel bajo de inversión inicial, puedes comenzar a vender en línea y ver un retorno de la inversión rápidamente.</p>
 
                 </div>
