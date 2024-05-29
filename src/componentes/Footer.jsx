@@ -26,7 +26,7 @@ export const Footer = () => {
             <p>@Berry_studios1</p>
 
             <h3>Email</h3>
-            <p>ventas@somoskiwi.com.ar </p>
+            <p>Mtbellinzona@gmail.com </p>
 
 
           </div>
