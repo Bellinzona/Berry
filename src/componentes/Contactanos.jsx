@@ -42,7 +42,7 @@ export const Contactanos = () => {
 
         
         <div className="contactosP">
-          <a href="https://api.whatsapp.com/send?phone=1234567890" className="whatsapp">
+          <a href="https://api.whatsapp.com/send?phone=541136181253" className="whatsapp">
           <div className='adentro' >
             <img src={contacto1} alt="" />
             <p>Chatear por WhatsApp</p>
