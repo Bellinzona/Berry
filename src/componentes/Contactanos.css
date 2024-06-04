@@ -1,0 +1,150 @@
+.Contactanos{
+    display: flex;
+    
+    background-color: white;
+    color: black;
+    text-align: center;
+    
+}
+
+.Contactanos h1{
+    margin: 45px;
+}
+
+
+.Contactos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:  80px auto;
+    width: 80%;
+
+}
+
+.contactosP{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.whatsapp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    margin: 0 55px;
+    height: 250px;
+    background-color: rgb(251, 120, 160);
+    border-radius: 30px;
+    cursor: pointer;
+    color: black;
+    position: relative;
+
+}
+
+.whatsapp:hover{
+    color: black;
+}
+
+.adentro{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+   
+}
+
+.adentro img{
+    width: 65%;
+    
+}
+
+
+.whatsapp img{
+    width: 20%;
+}
+
+
+@media screen and (max-width: 1440px) {
+    
+   
+
+    .Contactos{
+        
+        width: 100%;
+    }
+        
+        
+        
+}
+
+@media screen and (max-width: 1024px) {
+    
+       
+    
+        .Contactos{
+            
+            width: 100%;
+        }
+
+        .whatsapp{
+            
+            width: 30%;
+            margin: 0 30px;
+        }
+            
+            
+            
+}
+
+
+@media screen and (max-width: 768px) {
+    
+    
+
+    .Contactos{
+        
+        width: 100%;
+    }
+
+    .whatsapp{
+        
+        width: 30%;
+        margin: 0 15px;
+    }
+
+    
+        
+        
+        
+}
+
+
+@media screen and (max-width: 425px) {
+    
+    
+
+    .Contactos{
+        
+        width: 100%;
+    }
+
+    .whatsapp{
+        
+        width: 60%;
+        margin: 10px 15px;
+    }
+
+    .contactosP{
+        flex-direction:column ;
+    }
+        
+        
+        
+}

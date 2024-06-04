@@ -1,0 +1,390 @@
+.AyudaSector{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0px 0;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(240, 92, 139);
+    
+    
+}
+
+.AyudaSector h1{
+    font-size: 3rem;
+    
+}
+
+
+.PrimerosDos{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    position: absolute;
+    top: 0px;
+
+}
+
+
+
+
+.OtrosDos{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    position: absolute;
+    top: 40%;
+}
+
+
+.TextoAsesoramiento{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80%;
+    position: relative;
+}
+
+
+.ProgressBar{
+    height: 75vh ;
+    width: 20px;
+    border-radius: 20px;
+    position: absolute;
+    border: 3px solid rgb(255, 255, 255);
+    top: 3%;
+    overflow: hidden;
+}
+
+.Progress{
+    background-color: white;
+    height: 100%;
+}
+
+.Bloque1{
+    width: 30%;
+    height: 30%;
+    animation-duration: 3s;
+    margin-top: 20px;
+    margin-right: 100px;
+}
+
+.bloque2{
+    width: 30%;
+    height: 30%;
+    margin-top: 130px;
+    animation-duration: 4s;
+
+    
+}
+
+
+.esconder{
+    display: none;
+}
+
+@media screen and (max-width: 1440px) {
+    
+       
+
+       .PrimerosDos{
+        
+        top: -35px;
+       }
+
+       .OtrosDos{
+       
+        top: 250px;
+       }
+
+       .PrimerosDos h1{
+        font-size: 2.6rem;
+        margin-bottom: 0;
+
+       }
+
+       .OtrosDos h1{
+        font-size: 2.6rem;
+        margin-bottom: 0;
+       }
+
+       .Bloque1{
+       
+        font-size: 1rem;
+       }
+
+       
+        
+        
+        
+    }
+
+
+    @media screen and (max-width: 1160px) {
+       
+    
+           .PrimerosDos{
+            
+            top: -35px;
+           }
+    
+           .OtrosDos{
+           
+            top: 250px;
+           }
+    
+           .PrimerosDos h1{
+            font-size: 2.2rem;
+            margin-bottom: 0;
+    
+           }
+
+           .PrimerosDos p{
+            font-size: 0.89rem;
+            
+    
+           }
+    
+           .OtrosDos h1{
+            font-size: 2.1rem;
+            margin-bottom: 0;
+           }
+
+           .OtrosDos p{
+            font-size: 0.89rem;
+            
+    
+           }
+    
+           .Bloque1{
+           
+            font-size: 1rem;
+           }
+    
+        
+    
+    }
+
+
+    @media screen and (max-width: 900px) {
+        
+    
+           .PrimerosDos{
+            
+            top: -35px;
+           }
+    
+           .OtrosDos{
+           
+            top: 280px;
+           }
+    
+           .PrimerosDos h1{
+            font-size: 1.8rem;
+            margin-bottom: 0;
+    
+           }
+
+           .PrimerosDos p{
+            font-size: 0.89rem;
+            height: 20px;
+            
+            
+            
+    
+           }
+    
+           .OtrosDos h1{
+            font-size: 1.6rem;
+            margin-bottom: 0;
+           }
+
+           .OtrosDos p{
+            font-size: 0.8rem;
+            
+    
+           }
+    
+           .Bloque1{
+           
+            font-size: 1rem;
+           }
+    
+        
+    
+    }
+
+    @media screen and (max-width: 746px) {
+        
+    
+        .PrimerosDos{
+         
+         top: -35px;
+        }
+ 
+        .OtrosDos{
+        
+         top: 280px;
+        }
+ 
+        .PrimerosDos h1{
+         font-size: 1rem;
+         margin-bottom: 0;
+ 
+        }
+
+        .PrimerosDos p{
+         font-size: 0.6rem;
+         height: 20px;
+         
+         
+         
+ 
+        }
+ 
+        .OtrosDos h1{
+         font-size: 1rem;
+         margin-bottom: 0;
+        }
+
+        .OtrosDos p{
+         font-size: 0.6rem;
+         
+ 
+        }
+ 
+        .Bloque1{
+        
+         font-size: 1rem;
+        }
+ 
+     
+ 
+ }
+
+
+ @media screen and (max-width: 408px) {
+
+
+    .AyudaSector{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100vh;
+        padding: 50px 0;
+        margin: 0px 0;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        background-color: rgb(240, 92, 139);
+        
+        
+    }
+
+    .AyudaSector h1{
+        font-size: 2rem;
+    }
+        
+    
+    .PrimerosDos{
+     
+     top: -15px;
+    }
+
+    .OtrosDos{
+    
+     top: 290px;
+    }
+
+    .PrimerosDos h1{
+     font-size: 0.9rem;
+     margin-bottom: 0;
+
+    }
+
+    .PrimerosDos p{
+     font-size: 0.6rem;
+     height: 20px;
+     
+     
+     
+
+    }
+
+    .OtrosDos h1{
+     font-size: 0.9rem;
+     margin-bottom: 0;
+    }
+
+    .OtrosDos p{
+     font-size: 0.6rem;
+     
+
+    }
+
+    .Bloque1{
+    
+     font-size: 1rem;
+    }
+
+ 
+
+}
+
+@media screen and (max-width: 360px) {
+
+    .AyudaSector h1{
+        font-size: 1.5rem;
+    }
+        
+    
+    .PrimerosDos{
+     
+     top: -15px;
+    }
+
+    .OtrosDos{
+    
+     top: 290px;
+    }
+
+    .PrimerosDos h1{
+     font-size: 0.7rem;
+     margin-bottom: 0;
+
+    }
+
+    .PrimerosDos p{
+     font-size: 0.5rem;
+     height: 20px;
+     
+     
+     
+
+    }
+
+    .OtrosDos h1{
+     font-size: 0.9rem;
+     margin-bottom: 0;
+    }
+
+    .OtrosDos p{
+     font-size: 0.6rem;
+     
+
+    }
+
+    .Bloque1{
+    
+     font-size: 1rem;
+    }
+
+ 
+
+}
+
+

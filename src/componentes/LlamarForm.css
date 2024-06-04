@@ -1,0 +1,74 @@
+.FormContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+    height: 130vh;
+    background-color: rgba(97, 96, 96, 0.117);
+    
+}
+
+
+.LlamarForm{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    padding: 5% 0px;
+    background-color: white;
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 25px;
+    box-shadow: 0px 0px 10px -5px;
+    text-align: center;
+    overflow: hidden;
+    font-size: 1.5rem;
+    animation-duration: 0.5s;
+    
+}
+
+
+.LlamarForm input{
+    width: 60%;
+    margin: 20px auto;
+    padding: 15px 10px;
+    background-color: white;
+    border: none;
+    border-bottom: 1px solid gray;
+    box-shadow: 0px 0px 10px -8px;
+    font-size: 1rem;
+    border-radius: 10px;
+    color: black;
+}
+
+.LlamarForm input::placeholder{
+    font-size: 1.2rem;
+}
+
+
+.QuieroLlamen{
+    width: 50%;
+    margin: 20px auto;
+    margin-top: 25px;
+    padding: 14px 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(251, 120, 160);
+    cursor: pointer;
+    box-shadow: 0px 0px 10px -8px;
+    font-size: 1rem;
+}
+
+
+.Cerrar{
+    position: absolute;
+    right: -4px;
+    color: white;
+    top: -20px;
+    padding: 15px 20px;
+    background-color: red;
+    border-radius: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+}
