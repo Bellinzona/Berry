@@ -1,0 +1,224 @@
+.BerrySector{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    margin: 60px auto;
+    margin-bottom: 40px;
+    color: black;
+    font-size: 1.6rem;
+}
+
+.BerrySector h3{
+    margin: 10px;
+}
+
+
+.texto{
+    width: 55%;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+.EstandaresCalidad{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 60%;
+    height: 50%;
+   
+    margin:  25px auto;
+    
+
+}
+
+
+.CalidadIcons{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    height: 70%;
+    animation-duration: 1s;
+    display: none;
+   
+    
+
+}
+
+
+.CalidadIcons p {
+    margin: 5px auto;
+    font-size: 0.8rem;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+
+}
+
+.CalidadIcons img{
+    width: 55%;
+    margin: 0px auto;
+    cursor: pointer;
+}
+
+
+.mostrar{
+    display: flex;
+}
+
+
+@media screen and (max-width: 1440px) {
+
+    .BerrySector{
+        text-align: center;
+    }
+
+    .EstandaresCalidad{
+        
+        width: 75%;
+    }
+
+    
+}
+
+@media screen and (max-width: 1024px) {
+
+    .BerrySector{
+        width: 85%;
+        text-align: center;
+        font-size: 1.5rem;
+       
+       
+    }
+
+    .texto{
+        
+        width: 70%;
+    }
+
+
+    .CalidadIcons p{
+        font-size: 0.8rem;
+    }
+    
+
+    .EstandaresCalidad{
+        
+        width: 100%;
+      
+    }
+
+    
+}
+
+@media screen and (max-width: 768px) {
+
+    .BerrySector{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .BerrySector h3{
+        font-size: 1.5rem;
+    }
+    
+
+    .texto{
+        
+        width: 85%;
+    }
+    
+    .EstandaresCalidad{
+        
+        width: 85%;
+      
+    }
+}
+
+@media screen and (max-width: 430px) {
+    
+    .BerrySector{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .texto{
+        width: 100%;
+        
+    }
+    
+    .EstandaresCalidad{
+        
+        width: 100%;
+      
+    }
+
+    .CalidadIcons p{
+        font-size: 0.6rem;
+    }
+
+
+    
+}
+
+@media screen and (max-width: 375px) {
+    
+    .BerrySector{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .texto{
+        width: 100%;
+        
+    }
+    
+    .EstandaresCalidad{
+        
+        width: 100%;
+      
+    }
+
+    .CalidadIcons p{
+        font-size: 0.6rem;
+    }
+
+
+    
+}
+
+@media screen and (max-width: 320px) {
+    
+    .BerrySector{
+        font-size: 1.3rem;
+        text-align: center;
+        width: 91.7%;
+    }
+
+    .texto{
+        width: 100%;
+        
+        
+    }
+    
+    .EstandaresCalidad{
+        
+        width: 100%;
+        
+      
+    }
+
+    .CalidadIcons p{
+        font-size: 0.5rem;
+    }
+
+
+    
+}
+    
+    
